@@ -8,7 +8,7 @@ let startY;
 let isDown = false;
 
 function drawOval(x, y) {
-	ctx.clearRect(0, 0, canvas.width, canvas.height);
+	// ctx.clearRect(0, 0, canvas.width, canvas.height);
 	ctx.beginPath();
 	ctx.moveTo(startX, startY + (y - startY) / 2);
 	ctx.bezierCurveTo(startX, startY, x, startY, x, startY + (y - startY) / 2);
